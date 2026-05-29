@@ -1,41 +1,42 @@
 # CryptoTracker 🚀
 
-Android uygulaması – CoinGecko API kullanarak gerçek zamanlı kripto para fiyatlarını gösterir.
+An Android application built with Java that displays real-time cryptocurrency prices using the CoinGecko API.
 
-## Özellikler
-- Top 50 kripto para listesi (market cap sıralı)
-- Gerçek zamanlı USD fiyatları + 24 saatlik değişim yüzdesi
-- Coin arama (isim veya sembol)
-- Pull-to-refresh (aşağı çekerek yenile)
-- Detay ekranı: fiyat, market cap, hacim, 24h high/low, ATH, dolaşımdaki arz
-- İnternet yokken anlamlı hata mesajı
-- Karanlık tema
+## Features
+- 📋 Top 50 cryptocurrencies ranked by market cap
+- 💰 Real-time USD prices with 24h change percentage
+- 🔍 Search coins by name or symbol
+- 🔄 Auto-refresh every 60 seconds
+- ⭐ Save favorite coins (persisted with SharedPreferences)
+- 📊 7-day price sparkline chart on detail screen
+- 📶 Offline error handling
 
-## Mimari
-- **MVC** pattern
-- **Model:** `Coin.java`
-- **View:** `MainActivity`, `DetailActivity`, `CoinAdapter`
-- **Controller:** `CoinController`, `RetrofitClient`, `ApiService`, `NetworkUtils`
+## Architecture
+- **Pattern:** MVC (Model-View-Controller)
+- **Model:** `Coin.java`, `MarketChartResponse.java`
+- **View:** `MainActivity`, `DetailActivity`, `CoinAdapter`, `SparkLine`
+- **Controller:** `CoinController`, `RetrofitClient`, `ApiService`, `NetworkUtils`, `FavoriteManager`
 
-## Kullanılan Kütüphaneler
-| Kütüphane | Amaç |
+## Tech Stack
+| Library | Purpose |
 |---|---|
-| Retrofit 2 | HTTP API çağrıları |
-| Gson | JSON parse |
-| OkHttp | HTTP istemcisi |
-| Glide | Coin logo yükleme |
-| RecyclerView | Liste görünümü |
+| Retrofit 2 | HTTP API calls |
+| Gson | JSON parsing |
+| OkHttp | HTTP client |
+| Glide | Image loading |
+| RecyclerView | List display |
 | SwipeRefreshLayout | Pull-to-refresh |
 
 ## API
-- **CoinGecko** – Ücretsiz, API key gerektirmez
-- Endpoint: `GET /coins/markets?vs_currency=usd&order=market_cap_desc`
+- **CoinGecko Public API** – Free, no API key required
+- Endpoint: `GET /coins/markets` (list), `GET /coins/{id}/market_chart` (chart)
 
-## Kurulum
-1. Android Studio'da **File → Open** → bu klasörü seç
-2. Gradle sync tamamlanmasını bekle
-3. Emülatör veya fiziksel cihazda **Run** (▶️)
+## Testing
+- **Unit Tests:** 8 tests – search/filter logic (`CoinControllerTest`)
+- **UI Tests:** 2 tests – activity launch (`MainActivityTest`)
 
-## Testler
-- **Unit testler:** `app/src/test/` → Android Studio'da sağ tık → Run
-- **UI testler:** `app/src/androidTest/` → Emülatör gerektirir
+## Setup
+1. Clone the repository
+2. Open in Android Studio
+3. Wait for Gradle sync
+4. Run on emulator or device

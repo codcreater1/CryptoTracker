@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_bg_rank.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/bg_rank.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_no_internet.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_no_internet.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_coin_placeholder.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_coin_placeholder.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/layout_item_coin.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/layout/item_coin.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_search.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/layout_item_stat_row.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/layout/item_stat_row.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/layout_activity_detail.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_star_outline.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_star_outline.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_bg_search.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/bg_search.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_back.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.cryptotracker.app-merged_res-34:/drawable_ic_star_filled.xml.flat",
+        "source": "com.example.cryptotracker.app-main-36:/drawable/ic_star_filled.xml"
+    }
+]

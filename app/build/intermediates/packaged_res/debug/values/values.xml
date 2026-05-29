@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#0D0D1A</color>
+    <color name="green_profit">#00C853</color>
+    <color name="purple_light">#B47CFF</color>
+    <color name="purple_primary">#7C4DFF</color>
+    <color name="rank_bg">#2A2A3E</color>
+    <color name="red_loss">#FF1744</color>
+    <color name="star_yellow">#FFD600</color>
+    <color name="surface_card">#16213E</color>
+    <color name="surface_dark">#1A1A2E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <string name="app_name">CryptoTracker</string>
+    <string name="coin_logo_desc">Coin logo</string>
+    <string name="error_no_internet">No internet connection.\nPlease check your network and try again.</string>
+    <string name="label_ath">All-Time High</string>
+    <string name="label_high_24h">24h High</string>
+    <string name="label_low_24h">24h Low</string>
+    <string name="label_market_cap">Market Cap</string>
+    <string name="label_supply">Circulating Supply</string>
+    <string name="label_volume">24h Volume</string>
+    <string name="market_stats">Market Statistics</string>
+    <string name="search_hint">Search coins…</string>
+    <string name="subtitle_live_prices">Live cryptocurrency prices</string>
+    <style name="Theme.CryptoTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_light</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/surface_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+</resources>

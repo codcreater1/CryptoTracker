@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internet permission required for API calls -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CryptoTracker"
+        android:usesCleartextTraffic="false">
+
+        <!-- Main screen: list of cryptocurrencies -->
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Detail screen: single coin details -->
+        <activity
+            android:name=".view.DetailActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity" />
+
+    </application>
+
+</manifest>

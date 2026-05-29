@@ -1,0 +1,5 @@
+com.example.cryptotracker.test.app-jetified-core-1.6.1-0 C:\Users\Hp\.gradle\caches\transforms-3\3810485f6ac1bfd8a04450350b0d0476\transformed\jetified-core-1.6.1\res
+com.example.cryptotracker.test.app-androidTest-1 C:\Users\Hp\Desktop\CryptoTracker_new\CryptoTracker\app\build\generated\res\resValues\androidTest\debug
+com.example.cryptotracker.test.app-mergeDebugAndroidTestResources-2 C:\Users\Hp\Desktop\CryptoTracker_new\CryptoTracker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.cryptotracker.test.app-mergeDebugAndroidTestResources-3 C:\Users\Hp\Desktop\CryptoTracker_new\CryptoTracker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.cryptotracker.test.app-merged_res-4 C:\Users\Hp\Desktop\CryptoTracker_new\CryptoTracker\app\build\intermediates\merged_res\debugAndroidTest

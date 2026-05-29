@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CryptoTracker</string>
+    <string name="subtitle_live_prices">Live cryptocurrency prices</string>
+    <string name="search_hint">Search coins…</string>
+    <string name="error_no_internet">No internet connection.\nPlease check your network and try again.</string>
+    <string name="coin_logo_desc">Coin logo</string>
+    <string name="market_stats">Market Statistics</string>
+    <string name="label_market_cap">Market Cap</string>
+    <string name="label_volume">24h Volume</string>
+    <string name="label_high_24h">24h High</string>
+    <string name="label_low_24h">24h Low</string>
+    <string name="label_supply">Circulating Supply</string>
+    <string name="label_ath">All-Time High</string>
+</resources>

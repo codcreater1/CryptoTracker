@@ -27,13 +27,13 @@ import java.util.List;
 
 /**
  * Main screen: searchable list of top 50 cryptocurrencies.
- * Auto-refreshes every 30 seconds via a Handler/Runnable loop.
+ * Auto-refreshes every 60 seconds via a Handler/Runnable loop.
  */
 public class MainActivity extends AppCompatActivity
         implements CoinController.CoinCallback, CoinAdapter.OnCoinClickListener {
 
     private static final int  COIN_COUNT     = 50;
-    private static final long REFRESH_INTERVAL_MS = 60_000L; // 30 seconds
+    private static final long REFRESH_INTERVAL_MS = 60_000L; // 60 seconds
 
     // UI
     private RecyclerView       recyclerView;

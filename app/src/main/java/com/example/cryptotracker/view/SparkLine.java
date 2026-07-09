@@ -80,7 +80,7 @@ public class SparkLine extends View {
 
         // Find min/max for normalisation
         double min = Double.MAX_VALUE;
-        double max = Double.MIN_VALUE;
+        double max = -Double.MAX_VALUE;
         for (double p : prices) {
             if (p < min) min = p;
             if (p > max) max = p;
